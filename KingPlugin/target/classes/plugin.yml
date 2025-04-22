@@ -13,3 +13,6 @@ commands:
     usage: /crown <player>
     permission: kingplugin.command.crown
     permission-message: You don’t have permission to crown someone.
+  resign:
+    description: Resign from being king
+
