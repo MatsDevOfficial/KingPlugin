@@ -1,8 +1,11 @@
 name: KingPlugin
-version: 1.0
+version: 1.1
 main: com.example.kingplugin.KingPlugin
 api-version: 1.13
 commands:
-  maakkoning:
-    description: Maak een speler de koning.
-    usage: /makeking <speler>
+  makeking:
+    description: Make a player king
+    usage: /makeking <player>
+  king:
+    description: Show current king info
+    usage: /king
