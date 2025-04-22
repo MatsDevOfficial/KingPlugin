@@ -11,6 +11,7 @@ import org.bukkit.event.player.*;
 import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.EventHandler;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.*;
@@ -99,7 +100,7 @@ public class KingPlugin extends JavaPlugin implements Listener {
             meta.addEnchant(Enchantment.PROTECTION_ENVIRONMENTAL, 4, true);
             meta.addEnchant(Enchantment.THORNS, 3, true);
             meta.addEnchant(Enchantment.MENDING, 1, true);
-            meta.addEnchant(Enchantment.UNBREAKING, 3, true);
+            meta.addEnchant(Enchantment.DURABILITY, 3, true);
             crown.setItemMeta(meta);
         }
         return crown;
