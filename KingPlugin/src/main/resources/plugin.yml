@@ -1,11 +1,15 @@
 name: KingPlugin
-version: 1.1
+version: 1.0
 main: com.example.kingplugin.KingPlugin
-api-version: 1.13
+api-version: 1.16
 commands:
-  makeking:
-    description: Make a player king
-    usage: /makeking <player>
   king:
-    description: Show current king info
-    usage: /king
+    description: Show info about the current king.
+    usage: /<command>
+    permission: kingplugin.command.king
+    permission-message: You don't have permission to use this command.
+  crown:
+    description: Manually crown a new king.
+    usage: /crown <player>
+    permission: kingplugin.command.crown
+    permission-message: You don’t have permission to crown someone.

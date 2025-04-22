@@ -1,2 +1,4 @@
+com\example\kingplugin\CrownCommand.class
+com\example\kingplugin\KingInfoCommand.class
+com\example\kingplugin\PowerType.class
 com\example\kingplugin\KingPlugin.class
-com\example\kingplugin\KingPlugin$KingCommand.class
